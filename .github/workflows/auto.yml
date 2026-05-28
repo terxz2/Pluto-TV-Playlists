@@ -3,10 +3,10 @@ name: Auto Pluto Update
 on:
   schedule:
     - cron: '0 */1 * * *'
-#  workflow_dispatch:
+  workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#  contents: write
   
 jobs:
   build:
